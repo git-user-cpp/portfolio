@@ -1,7 +1,7 @@
 import Navbar from "./Navbar/Navbar";
-import Header from "./Header/Header";
+import Footer from "./Header/Footer";
 
 export {
     Navbar,
-    Header,
+    Footer,
 }

@@ -1,11 +1,11 @@
 import React from "react"
-import {Navbar, Header} from "./Layout"
+import {Navbar, Footer} from "./Layout"
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Header/>
+      <Footer/>
     </>
   )
 }
