@@ -1,0 +1,108 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    padding-top: 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-size: larger;
+    z-index: 10;
+}
+
+.navbar .logo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.navbar .menu {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-weight: bold;
+}
+
+.sec a {
+    transition: var(--transitions);
+    color: var(--text-main);
+    padding-right: 4rem;
+}
+
+.sec a:hover {
+    color:var(--text-submain);
+}
+
+.sec_active a {
+    color:var(--text-submain);
+}
+
+.sec_unactive a {
+    color:var(--text-main);
+}
+
+.email {
+    color: var(--text-main);
+    transition: var(--transitions);
+}
+
+.email:hover {
+    color: var(--text-submain);
+}
+
+.email_el {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3rem;
+        padding: 0;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: large;
+    }
+
+    .sec a {
+        padding: 1rem;
+    }
+
+    .email {
+        display: none;
+    }
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 0;
+        font-size: small;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .sec a {
+        padding: 0.45rem;
+    }
+
+    .email {
+        display: none;
+    }
+}
