@@ -3,9 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
     gap: 2rem;
-    z-index: 10;
+    z-index: 30;
 }
 
 .footer_socials::before {

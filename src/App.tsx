@@ -1,5 +1,5 @@
-import {Navbar, Footer} from "./Layout"
-import { About, Home, Projects } from "./Components"
+import {Navbar} from "./Layout"
+import { About, Contact, Home, Projects } from "./Components"
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Home/>
       <About/>
       <Projects/>
-      <Footer/>
+      <Contact/>
     </>
   )
 }
