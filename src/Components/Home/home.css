@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13rem;
+    padding-left: 20rem;
+}
+
+.play_button a {
+    display: inline-block;
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+    transition: var(--transitions);
+    height: 10rem;
+}
+
+.play_button a:hover {
+    color: var(--text-submain);
+    scale: 90%;
+}
+
+.profession {
+    padding-left: 1.3rem;
+    cursor: default;
+}
+
+.name {
+    font-size: 5rem;
+    font-weight: bold;
+    padding-left: 1.3rem;
+    cursor: default;
+}
+
+.stack {
+    padding-left: 1.3rem;
+    cursor: default;
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+    .home {
+        padding-left: 2rem;
+    }
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .home {
+        padding-left: 4rem;
+    }
+}

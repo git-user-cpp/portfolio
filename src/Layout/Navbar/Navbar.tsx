@@ -1,9 +1,8 @@
 import {useState, useEffect} from 'react'
 import {navLinks} from '../../Data/data'
 import {Logo} from '../../assets'
-import './navbar.css'
 import {TbMailForward} from 'react-icons/tb'
-import React from 'react'
+import './navbar.css'
 
 const Navbar = () => {
   const [active, setActive] = useState('home');

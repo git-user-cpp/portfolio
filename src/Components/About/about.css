@@ -1,0 +1,87 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    cursor: default;
+}
+
+.experience_left {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(text-main);
+    width: 40%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+}
+
+.years {
+    font-size: 15rem;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.text_under {
+    padding-left: 3rem;
+    text-align: right;
+    padding-bottom: 1rem;    
+}
+
+.info {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience_right {
+    border-color: var(text-main);
+    width: 50%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_exp {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: small;
+}
+
+.services {
+    margin-top: 4rem;
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .experience_left {
+        margin-left: 0rem;
+        margin-top: 6rem;
+    }
+
+    .years {
+        font-size: 10rem;
+    }
+
+    .experience_right {
+        padding-top: 3rem;
+    }
+}
