@@ -1,0 +1,95 @@
+.swiper_div {
+    width: 100%;
+    height: 100vh;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper_container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 10rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--text-submain);
+}
+
+.slide_title {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.slide_text {
+    font-weight: 300;
+}
+
+.buttn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.project_buttn {
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    background: transparent;
+    border: 2px solid var(--text-submain);
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: var(--transitions);
+    color: var(--text-submain);
+}
+
+.project_buttn:hover {
+    border-color: var(--text-main);
+    color: var(--text-main);
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .swiper_div {
+        margin-top: 15rem;
+    }
+
+    .slide_title {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .slide_text {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        margin: 15rem;
+    }
+}
