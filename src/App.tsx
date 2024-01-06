@@ -1,3 +1,4 @@
+import React from "react"
 import {Navbar, Header} from "./Layout"
 
 function App() {

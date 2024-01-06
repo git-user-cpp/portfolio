@@ -2,6 +2,7 @@ import {TbMailForward} from 'react-icons/tb'
 import {SiUpwork} from 'react-icons/si'
 import {BsInstagram} from 'react-icons/bs'
 import './header.css'
+import React from 'react'
 
 const HeaderSocials = () => {
   return (
