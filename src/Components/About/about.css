@@ -35,26 +35,15 @@ SOFTWARE.
 .experience_left {
     justify-content: center;
     align-items: center;
-    margin-left: 25rem;
 }
 
-.years {
-    font-size: 15rem;
-    padding-left: 3rem;
-    margin: 0;
+.exp {
+    width: 50rem;
+    transition: var(--transitions);
 }
 
-.text_under {
-    padding-left: 3rem;
-    text-align: right;
-    padding-bottom: 1rem;    
-}
-
-.info {
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
+.exp:hover {
+    scale: 90%;
 }
 
 .experience_right {
@@ -64,27 +53,49 @@ SOFTWARE.
 
 .text_exp {
     font-size: 3rem;
+    transition: var(--transitions);
+    text-align: left;
+}
+
+.text_exp:hover {
+    scale: 90%;
 }
 
 .description {
     font-size: 1rem;
+    transition: var(--transitions);
+}
+
+.description:hover {
+    scale: 90%;
 }
 
 .services {
     margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
-.shield {
-    height: 2rem;
-}
-
-.c {
-    height: 2rem;
+.avatar {
+    height: 4rem;
 }
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
 
+    .exp {
+        padding-top: 5rem;
+        width: 20rem;
+    }
 }
 
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
@@ -95,16 +106,14 @@ SOFTWARE.
         height: 100vh;
     }
 
-    .experience_left {
-        margin-left: 0rem;
-        margin-top: 6rem;
-    }
-
-    .years {
-        font-size: 10rem;
+    .exp {
+        padding-top: 15em;
+        width: 20rem;
     }
 
     .experience_right {
-        padding-top: 3rem;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
     }
 }

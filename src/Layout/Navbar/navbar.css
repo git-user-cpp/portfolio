@@ -91,6 +91,7 @@ SOFTWARE.
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .navbar {
+        position: fixed;
         width: 100%;
         justify-content: space-between;
         align-items: center;

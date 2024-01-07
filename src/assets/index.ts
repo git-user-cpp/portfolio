@@ -13,6 +13,8 @@ import ExperienceF from './AnimationExperience.json'
 import ExperienceS from './AnimationExperience2.json'
 import IOT from './AnimationIOT.json'
 import Project from './AnimationProject.json'
+import Check from './AnimationCheck.json'
+import Client from './AnimationClient.json'
 
 /*
 MIT License
@@ -54,4 +56,6 @@ export {
     ExperienceS,
     IOT,
     Project,
+    Check,
+    Client,
 }
