@@ -63,12 +63,22 @@ SOFTWARE.
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
-    
+    .footer_socials a {
+        width: 40rem;
+    }
 }
 
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
     .footer_socials a {
-        scale: 120%;
+        width: 450rem;
+    }
+
+    .footer_socials::before {
+        display: none;
+    }
+
+    .footer_socials::after {
+        display: none;
     }
 }

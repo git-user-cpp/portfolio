@@ -50,7 +50,7 @@ const Home = () => {
             </a>
           </div>
           <div className='profession'>
-            junior full stack developer
+            Full Stack Developer
           </div>
           <div className='name'>
             Andrew Kushyk

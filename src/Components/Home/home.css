@@ -64,6 +64,10 @@ SOFTWARE.
     height: 10rem;
 }
 
+.github_button a:hover {
+    scale: 90%;
+}
+
 .git_anim {
     height: 100%;
 }
@@ -71,6 +75,11 @@ SOFTWARE.
 .profession {
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.profession:hover {
+    scale: 90%;
 }
 
 .name {
@@ -78,11 +87,21 @@ SOFTWARE.
     font-weight: bold;
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.name:hover {
+    scale: 90%;
 }
 
 .stack {
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.stack:hover {
+    scale: 90%;
 }
 
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
