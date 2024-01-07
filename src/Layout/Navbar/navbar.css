@@ -79,8 +79,8 @@
         align-items: center;
         padding-top: 3rem;
         margin-top: 0;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        padding-left: 3rem;
+        padding: 3rem;
         font-size: large;
     }
 

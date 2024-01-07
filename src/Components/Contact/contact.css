@@ -9,7 +9,7 @@
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .footer_contact {
-        padding-top: 45%;
+        padding-top: 120%;
     }
 }
 
