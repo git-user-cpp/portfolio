@@ -28,7 +28,6 @@ SOFTWARE.
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    z-index: 30;
 }
 
 .footer_socials::before {
@@ -46,13 +45,20 @@ SOFTWARE.
 }
 
 .footer_socials a {
-    transition: var(--transitions);
-    color: var(--text-main);
-    scale: 165%;
+    width:4rem;
 }
 
-.footer_socials a:hover {
-    color: var(--text-submain);
+.eml {
+    scale: 80%;
+}
+
+.gh {
+    scale: 60%;
+}
+
+.tg {
+    padding-top: 0.3rem;
+    scale: 160%;
 }
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */

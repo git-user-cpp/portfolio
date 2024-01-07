@@ -1,9 +1,8 @@
-import { IoIosMail } from "react-icons/io";
-import { PiInstagramLogoFill } from "react-icons/pi";
-import { BsTelegram } from "react-icons/bs";
-import { FaYoutube } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
+
+import Lottie, {LottieRefCurrentProps} from "lottie-react";
 import './footer.css'
+import { Email, Git, Insta, TG, YT } from "../../assets";
+import { useRef } from "react";
 
 /*
 MIT License
@@ -30,13 +29,15 @@ SOFTWARE.
 */
 
 const FooterSocials = () => {
+  const gh = useRef<LottieRefCurrentProps>(null);
+
   return (
     <footer className='footer_socials'>
-        <a href="mailto:akushyk799@gmail.com" target="_blank"><IoIosMail /></a>
-        <a href="https://github.com/git-user-cpp" target="_blank"><BsGithub/></a>
-        <a href="https://t.me/andy_insta_art" target="_blank"><BsTelegram/></a>
-        <a href="https://www.instagram.com/andy_insta_art" target="_blank"><PiInstagramLogoFill /></a>
-        <a href="https://youtube.com/@andy_insta_art" target="_blank"><FaYoutube/></a>
+        <a href="mailto:akushyk799@gmail.com" target="_blank" className="eml"><Lottie animationData={Email} /></a>
+        <a href="https://github.com/git-user-cpp" target="_blank" className="gh"><Lottie lottieRef={gh} animationData={Git}/></a>
+        <a href="https://t.me/andy_insta_art" target="_blank" className="tg"><Lottie animationData={TG}/></a>
+        <a href="https://www.instagram.com/andy_insta_art" target="_blank"><Lottie animationData={Insta} /></a>
+        <a href="https://youtube.com/@andy_insta_art" target="_blank"><Lottie animationData={YT}/></a>
     </footer>
   )
 }

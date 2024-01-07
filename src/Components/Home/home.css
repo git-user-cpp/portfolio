@@ -64,9 +64,8 @@ SOFTWARE.
     height: 10rem;
 }
 
-.github_button a:hover {
-    color: var(--text-submain);
-    scale: 90%;
+.git_anim {
+    height: 100%;
 }
 
 .profession {

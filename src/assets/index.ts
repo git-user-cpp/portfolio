@@ -1,5 +1,13 @@
 import Logo from './client7_v2.png'
 import Portrait from './portrait.jpg'
+import Shield from './AnimationShield.json'
+import C from './AnimationC.json'
+import Prog from './AnimationProg.json'
+import Git from './AnimationGitHub.json'
+import Email from './AnimationEmail.json'
+import Insta from './AnimationInsta.json'
+import TG from './AnimationTelegram.json'
+import YT from './AnimationYT.json'
 
 /*
 MIT License
@@ -28,4 +36,12 @@ SOFTWARE.
 export {
     Logo,
     Portrait,
+    Shield,
+    C,
+    Prog,
+    Git,
+    Email,
+    Insta,
+    TG,
+    YT,
 }
