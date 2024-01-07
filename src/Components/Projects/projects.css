@@ -22,9 +22,37 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-.swiper_div {
+.projects {
     width: 100%;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.anim_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    transition: var(--transitions);
+}
+
+.anim:hover {
+    scale: 95%;
+}
+
+.swiper_div {
+    width: 100%;
+    height: 100%;
     cursor: default;
     display: flex;
     justify-content: center;
@@ -32,28 +60,21 @@ SOFTWARE.
 }
 
 .swiper_container {
-    width: 70%;
-    height: 70%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50rem;
 }
 
 .slide {
+    width: 30rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin-top: 10rem;
     text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--text-submain);
 }
 
 .slide_title {
@@ -94,13 +115,28 @@ SOFTWARE.
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+    .projects {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10rem;
+    }
 
-}
 
-/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
-@media screen and (max-width: 600px) {
+    .anim {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        padding-top: 4rem;
+    }
+
     .swiper_div {
-        margin-top: 15rem;
+        margin: 0;
+        padding: 0;
     }
 
     .slide_title {
@@ -115,5 +151,42 @@ SOFTWARE.
 
     .swiper-pagination-clickable .swiper-pagination-bullet {
         margin: 15rem;
+    }
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .projects {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12rem;
+    }
+
+    .anim {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .swiper_div {
+        margin: 0;
+        padding: 0;
+    }
+
+    .slide_title {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .slide_text {
+        font-size: 0.8rem;
+        font-weight: 300;
     }
 }

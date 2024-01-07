@@ -1,4 +1,3 @@
-
 import Lottie, {LottieRefCurrentProps} from "lottie-react";
 import './footer.css'
 import { Email, Git, Insta, TG, YT } from "../../assets";
