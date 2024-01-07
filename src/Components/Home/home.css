@@ -1,11 +1,37 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    padding-top: 13rem;
-    padding-left: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.play_button a {
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait {
+    border-radius: 50%;
+    border: 3px solid var(--text-submain);
+    height: 22.5rem;
+    transition: var(--transitions);
+}
+
+.portrait:hover {
+    scale: 90%;
+}
+
+.github_button a {
     display: inline-block;
     color: var(--text-main);
     margin: 0;
@@ -14,7 +40,7 @@
     height: 10rem;
 }
 
-.play_button a:hover {
+.github_button a:hover {
     color: var(--text-submain);
     scale: 90%;
 }
@@ -36,16 +62,43 @@
     cursor: default;
 }
 
-/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-@media screen and (max-width: 1024px) {
-    .home {
-        padding-left: 2rem;
-    }
-}
-
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
     .home {
-        padding-left: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portrait {
+        height: 15rem;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .right_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name{
+        font-size: 2.6rem;
+    }
+    .stack{
+        font-size: 0.6rem;
+        padding: 1rem;
     }
 }
