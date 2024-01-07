@@ -1,6 +1,8 @@
 import { Portrait } from '../../assets';
 import './home.css'
-import { VscGithub } from "react-icons/vsc";
+import Lottie, {LottieRefCurrentProps} from 'lottie-react'
+import { Git } from '../../assets';
+import { useRef } from 'react';
 
 /*
 MIT License
@@ -27,6 +29,8 @@ SOFTWARE.
 */
 
 const Home = () => {
+  const git_animation = useRef<LottieRefCurrentProps>(null);
+
   return (
     <div id='home' className='home container'>
       <div className='left'>
@@ -38,11 +42,15 @@ const Home = () => {
         <div className='right_items'>
           <div className='github_button'>
             <a href="https://github.com/git-user-cpp" target='_blank'>
-              <VscGithub size={160}/>
+              <Lottie 
+                lottieRef={git_animation} 
+                animationData={Git} 
+                className='git_anim'
+              />
             </a>
           </div>
           <div className='profession'>
-            junior full stack developer
+            Full Stack Developer
           </div>
           <div className='name'>
             Andrew Kushyk

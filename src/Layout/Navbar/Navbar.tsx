@@ -1,8 +1,8 @@
 import {useState, useEffect} from 'react'
 import {navLinks} from '../../Data/data'
-import {Logo} from '../../assets'
-import { IoIosMail } from "react-icons/io";
+import {Email, Logo} from '../../assets'
 import './navbar.css'
+import Lottie from 'lottie-react'
 
 /*
 MIT License
@@ -74,7 +74,7 @@ const Navbar = () => {
       </ul>
       <div>
         <a href='mailto:akushyk799@gmail.com' className='email'>
-          <IoIosMail className='email_el'/>
+          <Lottie animationData={Email} className='email_el'/>
         </a>
       </div>
     </nav>

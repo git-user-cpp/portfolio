@@ -47,7 +47,7 @@ SOFTWARE.
 .portrait {
     border-radius: 50%;
     border: 3px solid var(--text-submain);
-    height: 22.5rem;
+    height: 30.5rem;
     transition: var(--transitions);
 }
 
@@ -61,17 +61,26 @@ SOFTWARE.
     margin: 0;
     padding: 0;
     transition: var(--transitions);
-    height: 10rem;
+    height: 15rem;
 }
 
 .github_button a:hover {
-    color: var(--text-submain);
     scale: 90%;
 }
 
+.git_anim {
+    height: 100%;
+}
+
 .profession {
+    font-size: 3rem;
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.profession:hover {
+    scale: 90%;
 }
 
 .name {
@@ -79,11 +88,29 @@ SOFTWARE.
     font-weight: bold;
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.name:hover {
+    scale: 90%;
 }
 
 .stack {
     padding-left: 1.3rem;
     cursor: default;
+    transition: var(--transitions);
+}
+
+.stack:hover {
+    scale: 90%;
+}
+
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+    .portrait {
+        height: 20rem;
+    }
 }
 
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
@@ -116,6 +143,10 @@ SOFTWARE.
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .profession {
+        font-size: 1rem;
     }
 
     .name{

@@ -1,5 +1,20 @@
 import Logo from './client7_v2.png'
 import Portrait from './portrait.jpg'
+import Shield from './AnimationShield.json'
+import C from './AnimationC.json'
+import Prog from './AnimationProg.json'
+import Git from './AnimationGitHub.json'
+import Email from './AnimationEmail.json'
+import Insta from './AnimationInsta.json'
+import TG from './AnimationTelegram.json'
+import YT from './AnimationYT.json'
+import Contact from './AnimationContact.json'
+import ExperienceF from './AnimationExperience.json'
+import ExperienceS from './AnimationExperience2.json'
+import IOT from './AnimationIOT.json'
+import Project from './AnimationProject.json'
+import Check from './AnimationCheck.json'
+import Client from './AnimationClient.json'
 
 /*
 MIT License
@@ -28,4 +43,19 @@ SOFTWARE.
 export {
     Logo,
     Portrait,
+    Shield,
+    C,
+    Prog,
+    Git,
+    Email,
+    Insta,
+    TG,
+    YT,
+    Contact,
+    ExperienceF,
+    ExperienceS,
+    IOT,
+    Project,
+    Check,
+    Client,
 }
