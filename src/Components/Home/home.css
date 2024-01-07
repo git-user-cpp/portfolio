@@ -80,7 +80,7 @@ SOFTWARE.
 }
 
 .profession:hover {
-    scale: 90%;
+    scale: 96%;
 }
 
 .name {
@@ -92,7 +92,7 @@ SOFTWARE.
 }
 
 .name:hover {
-    scale: 90%;
+    scale: 96%;
 }
 
 .stack {
@@ -102,7 +102,7 @@ SOFTWARE.
 }
 
 .stack:hover {
-    scale: 90%;
+    scale: 96%;
 }
 
 

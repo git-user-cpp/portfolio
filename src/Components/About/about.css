@@ -33,6 +33,7 @@ SOFTWARE.
 }
 
 .experience_left {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -43,12 +44,13 @@ SOFTWARE.
 }
 
 .exp:hover {
-    scale: 90%;
+    scale: 95%;
 }
 
 .experience_right {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .text_exp {
@@ -58,7 +60,7 @@ SOFTWARE.
 }
 
 .text_exp:hover {
-    scale: 90%;
+    scale: 98%;
 }
 
 .description {
@@ -67,7 +69,7 @@ SOFTWARE.
 }
 
 .description:hover {
-    scale: 90%;
+    scale: 98%;
 }
 
 .services {
@@ -75,6 +77,11 @@ SOFTWARE.
     display: flex;
     gap: 1rem;
     align-items: center;
+    transition: var(--transitions);
+}
+
+.services:hover {
+    scale: 98%;
 }
 
 .avatar {
