@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import {navLinks} from '../../Data/data'
 import {Logo} from '../../assets'
-import {TbMailForward} from 'react-icons/tb'
+import { IoIosMail } from "react-icons/io";
 import './navbar.css'
 
 const Navbar = () => {
@@ -33,7 +33,9 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-      <img src={Logo} alt='logotype' className='logo' />
+      <div className='logo_div'>
+        <img src={Logo} alt='logotype' className='logo' />
+      </div>
 
       <ul className='menu'>
         {navLinks.map((nav) => (
@@ -48,7 +50,7 @@ const Navbar = () => {
       </ul>
       <div>
         <a href='mailto:akushyk799@gmail.com' className='email'>
-          <TbMailForward className='email_el'/>
+          <IoIosMail className='email_el'/>
         </a>
       </div>
     </nav>

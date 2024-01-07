@@ -3,5 +3,19 @@
 }
 
 .footer_contact{
+    padding-top: 45%;
+}
 
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+    .footer_contact {
+        padding-top: 45%;
+    }
+}
+
+/* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    .footer_contact {
+        padding-top: 200%;
+    }
 }
