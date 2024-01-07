@@ -8,6 +8,11 @@ import Email from './AnimationEmail.json'
 import Insta from './AnimationInsta.json'
 import TG from './AnimationTelegram.json'
 import YT from './AnimationYT.json'
+import Contact from './AnimationContact.json'
+import ExperienceF from './AnimationExperience.json'
+import ExperienceS from './AnimationExperience2.json'
+import IOT from './AnimationIOT.json'
+import Project from './AnimationProject.json'
 
 /*
 MIT License
@@ -44,4 +49,9 @@ export {
     Insta,
     TG,
     YT,
+    Contact,
+    ExperienceF,
+    ExperienceS,
+    IOT,
+    Project,
 }

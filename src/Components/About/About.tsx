@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react'
-import { C, Shield } from '../../assets'
+import { C, ExperienceF, ExperienceS, Shield } from '../../assets'
 import './about.css'
 
 const About = () => {
@@ -7,19 +7,14 @@ const About = () => {
     <div id='about' className='container'>
       <div className='about'>
         <div className='experience_left'>
-          <p className='years'>
-            5
-          </p>
-          <p className='text_under'>
-            Years<br/>Experience<br/>Working
-          </p>
+          <Lottie animationData={ExperienceS}/>
         </div>
         <div className='experience_right'>
           <p className='text_exp'>
-            Great Experience
+            5+ Years Working
           </p>
           <p className='description'>
-            since 2019 to the present day, I am closely involved in <br/> web development
+            since 2019 to the present day, I am closely involved in <br/> web development and system programming
           </p>
           <p className='services'>
             <Lottie animationData={Shield} className='shield'/>

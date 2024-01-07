@@ -71,10 +71,12 @@ SOFTWARE.
 
 .sec a:hover {
     color:var(--text-submain);
+    font-size: larger;
 }
 
 .sec_active a {
     color:var(--text-submain);
+    font-size: larger;
 }
 
 .sec_unactive a {
