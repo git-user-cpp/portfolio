@@ -29,22 +29,15 @@
 
 .footer_socials a:hover {
     color: var(--text-submain);
-    scale: 150%;
 }
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
-    .footer_socials {
-        margin-top: 13rem;
-    }
+    
 }
 
 /* ===================== SMALL QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
-    .footer_socials {
-        margin-top: 8rem;
-    }
-
     .footer_socials a {
         scale: 120%;
     }

@@ -1,23 +1,31 @@
+import { Portrait } from '../../assets';
 import './home.css'
-import {PiPlayCircleThin} from 'react-icons/pi'
+import { VscGithub } from "react-icons/vsc";
 
 const Home = () => {
   return (
-    <div id='home' className='container'>
-      <div className='home'>
-        <div className='play_button'>
-          <a href="#">
-            <PiPlayCircleThin size={160}/>
-          </a>
-        </div>
-        <div className='profession'>
-          senior
-        </div>
-        <div className='name'>
-          Andrew<br/>Kushyk
-        </div>
-        <div className='stack'>
-          full stack developer
+    <div id='home' className='home container'>
+      <div className='left'>
+        <a href="https://www.instagram.com/andy_insta_art" target='_blank'>
+          <img src={Portrait} alt="portrait" className='portrait' />
+        </a>
+      </div>
+      <div className='right'>
+        <div className='right_items'>
+          <div className='github_button'>
+            <a href="https://github.com/git-user-cpp" target='_blank'>
+              <VscGithub size={160}/>
+            </a>
+          </div>
+          <div className='profession'>
+            junior full stack developer
+          </div>
+          <div className='name'>
+            Andrew Kushyk
+          </div>
+          <div className="stack">
+            C, C++, Rust, Java, SQL, Spring, JavaScript, TypeScript, React, Tailwind CSS, Python
+          </div>
         </div>
       </div>
     </div>
