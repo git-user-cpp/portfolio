@@ -23,17 +23,20 @@ SOFTWARE.
 */
 
 .contact{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_contact{
-    padding-top: 43%;
+    padding-top: 40%;
 }
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .footer_contact {
-        padding-top: 120%;
+        padding-top: 110%;
     }
 }
 

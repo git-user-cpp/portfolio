@@ -180,6 +180,10 @@ SOFTWARE.
         padding: 0;
     }
 
+    .swiper_container {
+        width: 40rem;
+    }
+
     .slide_title {
         font-weight: bold;
         font-size: 2.5rem;
