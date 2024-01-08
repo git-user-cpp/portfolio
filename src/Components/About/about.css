@@ -114,7 +114,7 @@ SOFTWARE.
     }
 
     .exp {
-        padding-top: 15em;
+        padding-top: 20em;
         width: 20rem;
     }
 
@@ -122,5 +122,6 @@ SOFTWARE.
         width: 20rem;
         justify-content: center;
         align-items: center;
+        font-size: 1.5rem;
     }
 }

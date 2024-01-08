@@ -5,7 +5,7 @@ import { swiper_data } from '../../Data/swiper_data'
 import 'swiper/css/bundle'
 import 'swiper/css/autoplay'
 import Lottie from 'lottie-react'
-import { ExperienceF } from '../../assets'
+import { Project } from '../../assets'
 
 /*
 MIT License
@@ -36,7 +36,7 @@ const Projects = () => {
     <div id='projects' className='container'>
       <div className='projects'>
         <div className='anim_div'>
-          <Lottie animationData={ExperienceF} className='anim'/>
+          <Lottie animationData={Project} className='anim'/>
         </div>
         <div className='swiper_div'>
           <Swiper className="swiper_container"

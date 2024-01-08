@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react'
-import { C, Check, Client, ExperienceS, Shield } from '../../assets'
+import { C, Check, Client, Prog, Shield } from '../../assets'
 import './about.css'
 
 /*
@@ -32,7 +32,7 @@ const About = () => {
       <div className='about'>
         <div className='experience_left'>
           <div className='exp'>
-          <Lottie animationData={ExperienceS}/>
+          <Lottie animationData={Prog}/>
           </div>
         </div>
         <div className='experience_right'>
@@ -43,16 +43,16 @@ const About = () => {
             since 2020 to the present day, I am closely involved in <br/> web development and system programming
           </p>
           <p className='services'>
-            <Lottie animationData={Shield} className='avatar'/>Responsible Development
+            <Lottie animationData={Shield} className='avatar'/>Certified Professional
           </p>
           <p className='services'>
-            <Lottie animationData={Check} className='avatar'/>Front End Development
+            <Lottie animationData={Check} className='avatar'/>Responsible Web Development
           </p>
           <p className='services'>
-            <Lottie animationData={Client} className='avatar'/>Back End Development
+            <Lottie animationData={C} className='avatar'/>Reliable System And IoT Development
           </p>
           <p className='services'>
-            <Lottie animationData={C} className='avatar'/>System Development
+            <Lottie animationData={Client} className='avatar'/>16 Satisfied Customers And 25 Successful Projects
           </p>
         </div>
       </div>
