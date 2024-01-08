@@ -62,7 +62,7 @@ const Projects = () => {
                       </p>
                     </div>
                     <div className='buttn'>
-                      <a href="https://github.com/git-user-cpp" className='project_buttn'>
+                      <a href="https://github.com/git-user-cpp" target='_blank' className='project_buttn'>
                         See Projects
                       </a>
                     </div>
