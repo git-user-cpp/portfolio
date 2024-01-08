@@ -1,4 +1,6 @@
+import Lottie from 'lottie-react'
 import { Footer } from '../../Layout'
+import { Check, Contacts } from '../../assets'
 import './contact.css'
 
 /*
@@ -29,6 +31,24 @@ const Contact = () => {
   return (
     <div id='contact' className='container'>
       <div className='contact'>
+        <div className='all_options'>
+          <div className='contact_anim'>
+            <Lottie animationData={Contacts} className='c_anim' />
+          </div>
+          <div className='contact_description'>
+            <h1>
+              Andrew Kushyk
+            </h1>
+            <div className='contact_links'>
+              <a href="https://linktr.ee/tech_certificates_andy_kushyk" target='_blank'>
+                <Lottie animationData={Check} className='cont_shield'/><p>Tech Certificates</p>
+              </a>
+              <a href="https://linktr.ee/en_certificates_andy_kushyk" target='_blank'>
+                <Lottie animationData={Check} className='cont_shield'/><p>English Certificates</p>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className='footer_contact'>
           <Footer/>
         </div>

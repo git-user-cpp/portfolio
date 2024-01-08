@@ -56,7 +56,7 @@ const Home = () => {
             Andrew Kushyk
           </div>
           <div className="stack">
-            C, C++, Rust, Java, SQL, Spring, JavaScript, TypeScript, React, Tailwind CSS, Python
+            C, C++, Rust, Java, SQL, Spring, JavaScript, TypeScript, React, Tailwind CSS
           </div>
         </div>
       </div>

@@ -24,15 +24,15 @@ SOFTWARE.
 
 export const swiper_data = [
     {
-        title: 'Front End',
-        text: 'User-Friendly Front End For Web Applications'
+        title: 'Close Cooperation With Customers',
+        text: 'Fulfillment of all customer requirements at the highest level'
     },
     {
-        title: 'Back End',
-        text: 'Reliable Back End For Web Applications'
+        title: 'Web Development',
+        text: 'User-Friendly Front End And Reliable Back End For Web Applications'
     },
     {
-        title: 'System',
-        text: 'Rapid And Easy-To-Use System Applications'
+        title: 'System And IoT Development',
+        text: 'Rapid And Easy-To-Use System Applications And Firmware'
     },
 ];
